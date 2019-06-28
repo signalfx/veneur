@@ -15,10 +15,10 @@ message MergingDigestData {
     double min = 3;
     double max = 4;
     double reciprocalSum = 5;
+    bool debug = 6;
 }
 
 message Centroid {
     double mean = 1;
     double weight = 2;
-    repeated double samples = 3;
 }
